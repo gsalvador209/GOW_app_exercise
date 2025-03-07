@@ -57,7 +57,7 @@ class HomeViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "gamesSegue", sender: self)
+        performSegue(withIdentifier: menuOptions[indexPath.row].segue, sender: self)
     }
     
 

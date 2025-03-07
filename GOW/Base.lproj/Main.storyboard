@@ -66,11 +66,71 @@
                     <connections>
                         <outlet property="menuTableView" destination="3x8-If-SJa" id="9Ld-l5-Ofu"/>
                         <segue destination="bVt-am-Dih" kind="show" identifier="gamesSegue" id="CaL-F7-YX7"/>
+                        <segue destination="eBh-BY-omc" kind="show" identifier="weaponsSegue" id="7jc-56-cPa"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1m7-3P-mFr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="862" y="-68"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="lWl-bx-Wgt">
+            <objects>
+                <tableViewController id="beT-qF-Z38" customClass="WeaponsViewController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Kwl-7i-oHx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="dsz-eQ-9EZ">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dsz-eQ-9EZ" id="VF5-Zc-Vj6">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="beT-qF-Z38" id="SvQ-XT-NxV"/>
+                            <outlet property="delegate" destination="beT-qF-Z38" id="Na6-pf-uzf"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="ow7-wx-WhZ"/>
+                    <navigationItem key="navigationItem" id="Cpr-Rm-6ES"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mU8-7G-WHm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2808" y="96"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="aOT-Ec-vpT">
+            <objects>
+                <tableViewController id="fT8-7x-Y1m" customClass="WeaponsViewController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="a0C-9u-kH5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="aco-PN-5xu">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aco-PN-5xu" id="IER-tx-bS6">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fT8-7x-Y1m" id="tOz-95-YGA"/>
+                            <outlet property="delegate" destination="fT8-7x-Y1m" id="twX-qU-XTn"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="SpQ-gn-M1V"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3eS-pK-Z4x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2807" y="828"/>
         </scene>
         <!--Games View Controller-->
         <scene sceneID="nxL-zM-HWf">
@@ -125,6 +185,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aa5-dm-tLi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="87.786259541984734" y="-68.309859154929583"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Gyz-NL-18y">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="eBh-BY-omc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="mIo-rO-w6s"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mi1-TG-U0U">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="beT-qF-Z38" kind="relationship" relationship="viewControllers" id="84U-sw-5MM"/>
+                        <segue destination="fT8-7x-Y1m" kind="relationship" relationship="viewControllers" id="EwA-jE-8fp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RwX-aN-NHo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1864.885496183206" y="350.7042253521127"/>
         </scene>
     </scenes>
     <resources>
