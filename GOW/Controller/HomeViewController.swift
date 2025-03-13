@@ -5,6 +5,13 @@
 //  Created by Rafael Gonzalez on 07/03/25.
 //
 
+/* TODO:
+- Use fonts
+ - correct height of text in ars
+ 
+ 
+ */
+
 import UIKit
 
 class HomeViewController: UITableViewController {
@@ -33,6 +40,11 @@ class HomeViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Para ver las fuenetes
+//        for family in UIFont.familyNames.sorted() {
+//            let names = UIFont.fontNames(forFamilyName: family)
+//            print("Font names: \(names)")
+//        }
 
     }
 

@@ -13,7 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UILabel.appearance().textColor = GowColors.gowText
+        UIButton.appearance().setTitleColor(GowColors.gowRed, for: .normal)
+        UIView.appearance().backgroundColor = GowColors.gowBlack1
+        UIImageView.appearance().tintColor = GowColors.gowRed
+        UINavigationBar.appearance().tintColor = GowColors.gowText
+        UITabBar.appearance().tintColor = GowColors.gowRed
+        UITabBar.appearance().unselectedItemTintColor = GowColors.gowText
+        //UITextField.appearance().textColor = UIColor.darkGray
+
         return true
     }
 

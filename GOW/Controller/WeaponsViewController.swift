@@ -11,6 +11,8 @@ class WeaponsViewController: UIViewController {
 
     @IBOutlet weak var wTableView: UITableView!
     
+    @IBOutlet weak var navTitle: UILabel!
+    
     var arrayWeapons : [Weapon] = []
     //    CGO Weapons
         let cgoWeapons : [Weapon] = [
@@ -81,9 +83,13 @@ class WeaponsViewController: UIViewController {
         let tabItemTag = self.tabBarItem.tag
         if tabItemTag == Constants.TAG_CGO {
             arrayWeapons = cgoWeapons
+            navTitle.text = "CGO"
         }else{
             arrayWeapons = locusWeapons
+            navTitle.text = "Locust"
         }
+        
+        navTitle.setCustomFont(fontName: Constants.FONT_MENU_TITLE, size: Constants.FONT_SIZE_DEFAULT, textStyle: .title1, textColor:GowColors.gowRed)
         
     }
     
@@ -100,6 +106,7 @@ extension WeaponsViewController: UITableViewDataSource, UITableViewDelegate {
         cell.wName.text = weapon.name.localized
         cell.wPoster.image = UIImage(named: weapon.poster)
         cell.wDescription.text = weapon.description.localized
+        //cell.wDescription.setCustomFont(fontName: Constants.FONT_TEXT, size: 12, textStyle: .body)
         return cell
     }
     

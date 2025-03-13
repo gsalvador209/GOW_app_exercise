@@ -12,7 +12,8 @@ class WeaponsCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        wName.setCustomFont(fontName: Constants.FONT_MENU_TITLE, size: Constants.FONT_SIZE_DEFAULT, textStyle: .headline)
+        wName.setCustomFont(fontName: Constants.FONT_MENU_TITLE, size: Constants.FONT_SIZE_DEFAULT, textStyle: .headline, textColor: GowColors.gowRed)
+        print(Constants.FONT_MENU_TITLE)
     }
 
     @IBOutlet weak var wName: UILabel!
