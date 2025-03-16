@@ -1,7 +1,70 @@
-/* 
-  Localizable.strings
-  GOW
+/* MENU */
+"menu.option.videogames" = "Video games";
+"menu.option.weapons" = "Weapons";
+"menu.option.characters" = "Characters";
+"menu.option.merchandise" = "Merchandise";
 
-  Created by Salvador Chavez on 3/8/25.
-  
-*/
+/* WEAPONS */
+"weapon.name.boomshot" = "Boomshot Grenade Launcher";
+"weapon.description.boomshot" = "It was a single-shot pump-action grenade launcher designed and primarily used by the Locust, particularly by the Boomer.";
+"weapon.name.hammerburstii" = "Hammerburst II";
+"weapon.description.hammerburstii" = "It was the standard high-powered Locust assault rifle. It is often referred to as the Locust counterpart to the COG Lancer assault rifle.";
+"weapon.name.mulcher" = "Mulcher";
+"weapon.description.mulcher" = "The Mulcher is a heavy, hand-cranked rotary Gatling gun developed by the Coalition of Ordered Governments.";
+"weapon.name.bolo_grenade" = "Bolo Grenade";
+"weapon.description.bolo_grenade" = "The Bolo Grenade, otherwise known as the Fragmentation Grenade, was the standard fragmentation grenade used by the Coalition of Ordered Governments, the Locust Horde, and the Swarm.";
+"weapon.name.boltok" = "Boltok Pistol";
+"weapon.description.boltok" = "It was the standard sidearm of the Locust, particularly the Drones. The pistol continues the Locust weapon design philosophy of creating weapons with an emphasis on brute force.";
+"weapon.name.lancer" = "Lancer Assault Rifle Mark 1";
+"weapon.description.lancer" = "Nicknamed Retro Lancer during the Lambent Pandemic, it was the predecessor to the Lancer Assault Rifle Mark 2. Previously the main assault rifle of the Coalition of Ordered Governments army, the Mark 1 Assault Rifle was used during the Pendulum Wars.";
+"weapon.name.lancer2" = "Lancer Assault Rifle Mark 2";
+"weapon.description.lancer2" = "An upgrade to the Lancer Assault Rifle Mark 1, produced with a chainsaw bayonet, greater accuracy, lower recoil, and increased ammunition capacity but less firepower than its predecessor.";
+"weapon.name.sniper" = "Longshot Sniper Rifle";
+"weapon.description.sniper" = "It was a single-shot, large-caliber sniper rifle. Created by the Coalition of Ordered Governments during the Pendulum Wars, the Longshot was still in use seventeen years after Emergence Day.";
+"weapon.name.hammer_of_dawn" = "Hammer of Dawn";
+"weapon.description.hammer_of_dawn" = "The Hammer of Dawn was an orbital, satellite-based laser powered by COG Imulsion. Its key components were invented by UIR scientist Mauris Ivo and completed by Professor Adam Fenix after it was stolen during Operation: Leveler.";
+"weapon.name.mx8" = "Snub Pistol MX8";
+"weapon.description.mx8" = "It was the standard sidearm for Coalition of Ordered Governments armed forces personnel.";
+
+/* CHARACTERS */
+"character.name.marcusfenix" = "Marcus Fenix";
+"character.coalition.marcusfenix" = "COG";
+"character.race.marcusfenix" = "Human";
+"character.sex.marcusfenix" = "Male";
+"character.firstappearance.marcusfenix" = "Gears of War";
+
+"character.name.dominicsantiago" = "Dominic Santiago";
+"character.coalition.dominicsantiago" = "COG";
+"character.race.dominicsantiago" = "Human";
+"character.sex.dominicsantiago" = "Male";
+"character.firstappearance.dominicsantiago" = "Gears of War";
+
+"character.name.augustuscole" = "Augustus Cole";
+"character.coalition.augustuscole" = "COG";
+"character.race.augustuscole" = "Human";
+"character.sex.augustuscole" = "Male";
+"character.firstappearance.augustuscole" = "Gears of War";
+
+"character.name.damonbaird" = "Damon Baird";
+"character.coalition.damonbaird" = "COG";
+"character.race.damonbaird" = "Human";
+"character.sex.damonbaird" = "Male";
+"character.firstappearance.damonbaird" = "Gears of War";
+
+"character.name.queenmyrrah" = "Queen Myrrah";
+"character.coalition.queenmyrrah" = "Locust";
+"character.race.queenmyrrah" = "Locust Hybrid";
+"character.sex.queenmyrrah" = "Female";
+"character.firstappearance.queenmyrrah" = "Gears of War";
+
+"character.name.generalraam" = "General RAAM";
+"character.coalition.generalraam" = "Locust";
+"character.race.generalraam" = "Locust";
+"character.sex.generalraam" = "Male";
+"character.firstappearance.generalraam" = "Gears of War";
+
+"character.name.kaitdiaz" = "Kait Diaz";
+"character.coalition.kaitdiaz" = "Outsiders/COG";
+"character.race.kaitdiaz" = "Human";
+"character.sex.kaitdiaz" = "Female";
+"character.firstappearance.kaitdiaz" = "Gears of War 4";

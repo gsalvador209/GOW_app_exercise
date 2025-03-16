@@ -1,0 +1,70 @@
+/* MENU */
+"menu.option.videogames" = "Videojuegos";
+"menu.option.weapons" = "Armas";
+"menu.option.characters" = "Personajes";
+"menu.option.merchandise" = "Mercancía";
+
+/* WEAPONS */
+"weapon.name.boomshot" = "Lanzagranadas Boomshot";
+"weapon.description.boomshot" = "Era un lanzagranadas de un solo disparo y acción de bomba diseñado y utilizado principalmente por los Locust, en particular por los Boomers.";
+"weapon.name.hammerburstii" = "Hammerburst II";
+"weapon.description.hammerburstii" = "Era el rifle de asalto estándar de alta potencia de los Locust. A menudo se lo conoce como la contraparte Locust del rifle de asalto Lancer de la COG.";
+"weapon.name.mulcher" = "Mulcher";
+"weapon.description.mulcher" = "El Mulcher es una pesada ametralladora rotativa accionada manualmente, desarrollada por la Coalición de Gobiernos Ordenados.";
+"weapon.name.bolo_grenade" = "Granada Bolo";
+"weapon.description.bolo_grenade" = "La Granada Bolo, también conocida como Granada de Fragmentación, era la granada de fragmentación estándar utilizada por la Coalición de Gobiernos Ordenados, la Horda Locust y el Enjambre.";
+"weapon.name.boltok" = "Pistola Boltok";
+"weapon.description.boltok" = "Era el arma secundaria estándar de los Locust, en particular de los Drones. La pistola sigue la filosofía de diseño de armas de los Locust de crear armas con énfasis en la fuerza bruta.";
+"weapon.name.lancer" = "Rifle de Asalto Lancer Mark 1";
+"weapon.description.lancer" = "Apodado Retro Lancer durante la Pandemia Lambent, fue el predecesor del Rifle de Asalto Lancer Mark 2. Anteriormente, el rifle de asalto principal del ejército de la Coalición de Gobiernos Ordenados, el Rifle de Asalto Mark 1 se usó durante las Guerras del Péndulo.";
+"weapon.name.lancer2" = "Rifle de Asalto Lancer Mark 2";
+"weapon.description.lancer2" = "Una mejora del Rifle de Asalto Lancer Mark 1, producido con una bayoneta motosierra, mayor precisión, menor retroceso y mayor capacidad de munición, pero con menos potencia de fuego que su predecesor.";
+"weapon.name.sniper" = "Rifle de Francotirador Longshot";
+"weapon.description.sniper" = "Era un rifle de francotirador de un solo disparo y gran calibre. Creado por la Coalición de Gobiernos Ordenados durante las Guerras del Péndulo, el Longshot todavía estaba en uso diecisiete años después del Día de la Emergencia.";
+"weapon.name.hammer_of_dawn" = "Martillo del Alba";
+"weapon.description.hammer_of_dawn" = "El Martillo del Alba era un láser orbital basado en satélites, alimentado por Imulsión de la COG. Sus componentes clave fueron inventados por el científico de la UIR Mauris Ivo y completados por el profesor Adam Fenix después de que fuera robado durante la Operación: Nivelador.";
+"weapon.name.mx8" = "Pistola Snub MX8";
+"weapon.description.mx8" = "Era el arma secundaria estándar para el personal de las fuerzas armadas de la Coalición de Gobiernos Ordenados.";
+
+/* CHARACTERS */
+"character.name.marcusfenix" = "Marcus Fenix";
+"character.coalition.marcusfenix" = "COG";
+"character.race.marcusfenix" = "Humano";
+"character.sex.marcusfenix" = "Masculino";
+"character.firstappearance.marcusfenix" = "Gears of War";
+
+"character.name.dominicsantiago" = "Dominic Santiago";
+"character.coalition.dominicsantiago" = "COG";
+"character.race.dominicsantiago" = "Humano";
+"character.sex.dominicsantiago" = "Masculino";
+"character.firstappearance.dominicsantiago" = "Gears of War";
+
+"character.name.augustuscole" = "Augustus Cole";
+"character.coalition.augustuscole" = "COG";
+"character.race.augustuscole" = "Humano";
+"character.sex.augustuscole" = "Masculino";
+"character.firstappearance.augustuscole" = "Gears of War";
+
+"character.name.damonbaird" = "Damon Baird";
+"character.coalition.damonbaird" = "COG";
+"character.race.damonbaird" = "Humano";
+"character.sex.damonbaird" = "Masculino";
+"character.firstappearance.damonbaird" = "Gears of War";
+
+"character.name.queenmyrrah" = "Reina Myrrah";
+"character.coalition.queenmyrrah" = "Locust";
+"character.race.queenmyrrah" = "Híbrido Locust";
+"character.sex.queenmyrrah" = "Femenino";
+"character.firstappearance.queenmyrrah" = "Gears of War";
+
+"character.name.generalraam" = "General RAAM";
+"character.coalition.generalraam" = "Locust";
+"character.race.generalraam" = "Locust";
+"character.sex.generalraam" = "Masculino";
+"character.firstappearance.generalraam" = "Gears of War";
+
+"character.name.kaitdiaz" = "Kait Diaz";
+"character.coalition.kaitdiaz" = "Forasteros/COG";
+"character.race.kaitdiaz" = "Humano";
+"character.sex.kaitdiaz" = "Femenino";
+"character.firstappearance.kaitdiaz" = "Gears of War 4";

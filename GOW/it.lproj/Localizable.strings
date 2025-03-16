@@ -38,3 +38,44 @@
 "weapon.name.mx8" = "Pistola snub MX8";
 "weapon.description.mx8" = "Era l'arma da fianco standard per il personale delle forze armate della Coalition of Ordered Governments";
 
+"character.name.marcusfenix" = "Marcus Fenix";
+"character.coalition.marcusfenix" = "COG";
+"character.race.marcusfenix" = "Umano";
+"character.sex.marcusfenix" = "Maschio";
+"character.firstappearance.marcusfenix" = "Gears of War";
+
+"character.name.dominicsantiago" = "Dominic Santiago";
+"character.coalition.dominicsantiago" = "COG";
+"character.race.dominicsantiago" = "Umano";
+"character.sex.dominicsantiago" = "Maschio";
+"character.firstappearance.dominicsantiago" = "Gears of War";
+
+"character.name.augustuscole" = "Augustus Cole";
+"character.coalition.augustuscole" = "COG";
+"character.race.augustuscole" = "Umano";
+"character.sex.augustuscole" = "Maschio";
+"character.firstappearance.augustuscole" = "Gears of War";
+
+"character.name.damonbaird" = "Damon Baird";
+"character.coalition.damonbaird" = "COG";
+"character.race.damonbaird" = "Umano";
+"character.sex.damonbaird" = "Maschio";
+"character.firstappearance.damonbaird" = "Gears of War";
+
+"character.name.queenmyrrah" = "Regina Myrrah";
+"character.coalition.queenmyrrah" = "Locust";
+"character.race.queenmyrrah" = "Ibrido Locust";
+"character.sex.queenmyrrah" = "Femmina";
+"character.firstappearance.queenmyrrah" = "Gears of War";
+
+"character.name.generalraam" = "Generale RAAM";
+"character.coalition.generalraam" = "Locust";
+"character.race.generalraam" = "Locust";
+"character.sex.generalraam" = "Maschio";
+"character.firstappearance.generalraam" = "Gears of War";
+
+"character.name.kaitdiaz" = "Kait Diaz";
+"character.coalition.kaitdiaz" = "Outsiders/COG";
+"character.race.kaitdiaz" = "Umano";
+"character.sex.kaitdiaz" = "Femmina";
+"character.firstappearance.kaitdiaz" = "Gears of War 4";
